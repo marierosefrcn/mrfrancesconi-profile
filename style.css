@@ -1,0 +1,93 @@
+body{
+	background-color: #ffe8ee;
+	font:font-family: 'Open Sans', sans-serif;
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+	color : #4D4D4D
+}
+
+@media screen and (max-width: 1900px) {
+  .container {
+    width: 1700px;
+    margin : 40px, auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 900px;
+    margin : 40px, auto;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin : 40px, auto;
+  }
+}
+@media screen and (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin : 40px, auto;
+  }
+}
+@media screen and (max-width: 540px) {
+  .container {
+    width: 300px;
+    margin : 40px, auto;
+  }
+}
+
+.card-white {
+	background: white;
+	padding:30px 0px;
+	border-radius: 1%;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	margin: 40px 40px;
+	text-align: center;
+	width: 100%;
+}
+
+.img-circle {
+
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #6B240C;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5%;
+	text-decoration: none;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+  	padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline; 
+  padding: 20px;
+}
+
+.list-inline i {
+	size: 100px;
+	color: #6B240C;
+}
+
+.list-inline i : hover {
+	color: black;
+}
+
+
+#introduction p {
+	margin-bottom: 50px;
+}
+
